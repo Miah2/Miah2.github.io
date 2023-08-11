@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+
+       <div class="hero">
+           <header>
+                <a href="file:///C:/Users/Jerry/Desktop/tuts/orphanage/orphane.html" class="logo"><img src="./img/logo.png" ></a>
+                <nav>
+                    <ul>
+                        <li><a href="file:///C:/Users/Jerry/Desktop/tuts/orphanage/orphane.html">Home</a></li>
+                        <li><a href="file:///C:/Users/Jerry/Desktop/tuts/orphanage/about.html">About</a></li>
+                        <li><a href="file:///C:/Users/Jerry/Desktop/tuts/orphanage/blog.html">Blog</a></li>
+                        <li><a href="file:///C:/Users/Jerry/Desktop/tuts/orphanage/contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+                <a href=""><button class="btn">Donate</button></a>
+                <img src="./img/menu.png" class="menu-icon">
+           </header>
+
+           <div class="hero-text">
+             <h1>CONTACT <span>US</span></h1>
+           </div>
+
+           <div class="concard">
+             <h6>Orphan Life Foundation is headquartered in Lacey, Washington State. Simply fill the form below and contact us to play your part in improving the lives of orphans around the world.</h6>
+           </div>
+       </div>
+
+
+
+       
+       <section id="form"> 
+          <p>Orphan Life Foundation</p>
+          <p>5815 Lacey Boulevard SE, #8506</p>
+          <p>Lacey, WA 98509</p>
+          <p>+1-360-704-9400</p>
+          <p>info@orphanlifefoundation.org</p>
+           
+          <form action="">
+           <input type="text" placeholder="First Name" required><br>
+           <input type="text" placeholder="Last Name" required><br>
+           <input type="email" placeholder="Email address" required><br>
+           <textarea rows="7" placeholder="Message......."></textarea>
+           <button type="submit" class="btn">Submit</button>
+          </form>
+       </section>
+
+       <section id="difference"> 
+
+         <div class="diff-container">
+            <h1>MAKE A DIFFERENCE IN THE WORLD</h1>
+            <P>Lorem ipsum dolor sit amet, consectetur litia gfcf gfcxds xfdx hjghgg nesciunt rerum quae nam, at doloribus consequatur laborum</P>
+         </div>
+         
+         <div class="diff-box">
+            <a href="file:///C:/Users/Jerry/Desktop/tuts/orphanage/orphane.html"><img src="./img/logo.png" width="150px" ></a>
+            <p>Lorem ipsum dolor sit amet, consectetur  fhfhfd fhfg ghf adipisicing elit. Molestiae voluptatibus natus sequi.</p>
+            <h6>Thank you! We appreciate your genorosity!</h6>
+            <a href=""><button class="btn">DONATE NOW</button></a>
+         </div>
+      </section>
+     
+       <footer>
+        <p>© 2022 Serving Orphans Worldwide all rights reserved | 866 580 5700 | info@soworldwide.org | PO BOX 1403, Bristol, TN, 37621</p>
+     </footer>
+    </div>
+ 
+
+    
+
+    <script>
+        const menu =  document.querySelector('.menu-icon')
+        const nav=  document.querySelector('nav')
+        let toggle = false
+  
+        menu.addEventListener('click', () => {
+           toggle = !toggle
+           console.log(toggle)
+           if(toggle){
+              nav.classList.add('open-nav')        
+           }
+           if(!toggle){
+              nav.classList.remove('open-nav')
+           }
+        })
+     </script>
+</body>

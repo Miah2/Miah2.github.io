@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylle.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="caculator">
+            <form>
+                <div class="display">
+                    <input type="text" name="display">
+                </div>
+                <div>
+                    <input type="button" value="AC" onclick="display.value = '' " class="operator">
+                    <input type="button" value="DE" onclick="display.value = display.value.toString().slice(0,-1)" class="operator">
+                    <input type="button" value="." onclick="display.value += '.' " class="operator">
+                    <input type="button" value="/" onclick="display.value += '/' " class="operator">
+                </div>
+                <div>
+                    <input type="button" value="7" onclick="display.value += '7' ">
+                    <input type="button" value="8" onclick="display.value += '8' ">
+                    <input type="button" value="9" onclick="display.value += '9' ">
+                    <input type="button" value="*" onclick="display.value += '*' " class="operator">
+                </div>
+                <div>
+                    <input type="button" value="4" onclick="display.value += '4' ">
+                    <input type="button" value="5" onclick="display.value += '5' ">
+                    <input type="button" value="6" onclick="display.value += '6' ">
+                    <input type="button" value="-" onclick="display.value += '-' " class="operator">
+                </div>
+                <div>
+                    <input type="button" value="1" onclick="display.value += '1' ">
+                    <input type="button" value="2" onclick="display.value += '2' ">
+                    <input type="button" value="3" onclick="display.value += '3' ">
+                    <input type="button" value="+" onclick="display.value += '+' " class="operator">
+                </div>
+                <div>
+                    <input type="button" value="00" onclick="display.value += '00' ">
+                    <input type="button" value="0" onclick="display.value += '0' ">
+                    <input type="button" value="=" onclick="display.value = eval(display.value)" class="equal operator">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <section id="difference"> 
+
+        <div class="diff-container">
+           <h1>MAKE A DIFFERENCE IN THE WORLD</h1>
+           <P>Lorem ipsum dolor sit amet, consectetur litia gfcf gfcxds xfdx hjghgg nesciunt rerum quae nam, at doloribus consequatur laborum</P>
+        </div>
+        
+        <div class="diff-box">
+           <a href="file:///C:/Users/Jerry/Desktop/tuts/orphanage/orphane.html"><img src="./img/logo.png" width="150px" ></a>
+           <p>Lorem ipsum dolor sit amet, consectetur  fhfhfd fhfg ghf adipisicing elit. Molestiae voluptatibus natus sequi.</p>
+           <h6>Thank you! We appreciate your genorosity!</h6>
+           <a href=""><button class="btn">DONATE NOW</button></a>
+        </div>
+     </section>
+     
+     <div class="music">
+        <div class="lyrics">Let love lead</div>
+        <div class="lyrics">Live and Let Live , Trying to get the limelight to let my name shine, trying to get the cheese at the same time</div>
+        <div class="lyrics">Let it Flow..... I am trying to make my momma proud so i stay on my grind</div>
+        <div class="lyrics">Let's do everything together........ They say money talks but i am still trying to make a sentence</div>
+     </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylle.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="counter_container">
+        <button id="subtract">-</button>
+        <span id="output">0</span>
+        <button id="add">+</button>
+    </div>
+
+    <script>
+
+        let add = document.querySelector("#add");
+        let subract = document.querySelector("#subtract");
+        
+        add.addEventListener("click", function () {
+          let output = document.querySelector("#output");
+          let result = Number(output.innerText) + 1;
+
+          if (result > 10) {
+            result = 0;
+          }
+        
+          output.innerText = result;
+      });
+
+       subract.addEventListener("click", function () {
+         let output = document.querySelector("#output");
+         let result = Number(output.innerText) - 1;
+       
+         if (result < 0) {
+           result = 0;
+         }
+       
+         output.innerText = result;
+       });
+
+
+    </script>
+</body>
+</html> -->

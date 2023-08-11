@@ -1,0 +1,149 @@
+.hero{
+width: 100%;
+height: 70vh;
+background-image: linear-gradient(to top, #ffffff27, #727070), url(./img/Malay_Kids.jpg);
+background-position:cover;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+margin-bottom: 40px;
+}
+.hero-text h1{
+font-family: 'Permanent Marker', cursive;
+font-weight: 300;
+font-size: 4.5vw;
+}
+.concard{
+width: 80%;
+height: 150px;
+background-color: whitesmoke;
+text-align: center;
+margin-top: 320px;
+position: absolute;
+left: 10%;
+padding: 50px 40px 0;
+}
+.concard h6{
+font-size: 16px;
+font-weight: 500;
+padding: 20px 50px;
+}
+
+#form{
+width: 90%;
+background-color: whitesmoke;
+text-align: center;
+margin: 80px auto;
+}
+#form p{
+font-weight: 500;
+font-size: 20px;
+}
+
+form{
+background: #86e1f8;
+display: flex;
+flex-direction: column;
+padding: 40px 50px;
+max-width: 700px;
+border-radius: 10px;
+margin: 20px auto;
+box-shadow: 0px 3px 5px #000b0a90;
+}
+form input , form textarea{
+background: #f2efef;
+border: 0;
+margin: 10px 0;
+padding: 10px;
+outline: none;
+font-size: 15px;
+box-shadow: 0px 3px 5px #000b0a90;
+}
+form .btn{
+background: whitesmoke;
+padding: 10px;
+width: 170px;
+margin: 30px auto;
+}
+
+
+
+@media only screen and (max-width:770px){
+  
+    h1{
+    font-size: 26px;
+    }
+
+   header{
+    padding: 0;
+    padding-right: 30px;
+    animation: none;
+   }
+  
+  nav{
+  position: fixed;
+  right: 0;
+  top: 75px;
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: 999;
+  transform: translateX(100%);
+  transition: transform 1s ease-in-out;
+  }
+  ul{
+  list-style: none;
+  padding: 0;
+  margin-top: 60px;
+  padding-right: 20px;
+  } 
+  ul li{
+  border-bottom: 1px solid #86e1f8;
+  border-radius: 0px;
+  display: block;
+  transition: 1s;
+  }
+  ul li:hover{
+  transform: translateX(-20px);
+  }
+  ul li a{
+  font-size: 16px;
+  color: #1d1c1c;
+  display: block;
+  padding: 20px 40px;
+  }
+  li .active{
+    color: white;
+  }
+  ul li a:hover{
+  background: #777474e7;
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px #b0ced3;
+  }
+  header .btn{
+  margin-right: 25px;
+  }
+  .menu-icon{
+  display: block;
+  cursor: pointer;
+  }
+  .hero{
+    background-image: linear-gradient(to top, #ffffff27, #727070), url(./img/kid.jpg);
+    }
+    .concard{
+    padding: 20px 0px 0;
+    }
+    #form{
+    padding-top: 30px;
+    margin: 80px auto;
+    }
+    #form p{
+    font-size: 18px;
+    }
+
+  .open-nav{
+    transform: translateX(0%);
+  }
+
+}
