@@ -16,7 +16,7 @@ font-size: 39px;
 .hero{
 width: 100%;
 height: 100vh;
-background-image: linear-gradient(to top, #ffffff27, #727070), url(./malaykidss.JPG);
+background-image: linear-gradient(to top, #ffffff27, #727070), url(./img/malaykidss.JPG);
 background-position:cover;
 background-size: cover;
 background-repeat: no-repeat;
@@ -236,7 +236,7 @@ color: white;
 padding: 20px;
 background-image: url(./img/john.jpg);
 box-shadow: 0 10px 10px #00000080;
-border-radius: 10px;
+border-radius: 5px;
 }
 .Portfolio-grid .col .imgBx{
 position: absolute;
@@ -248,7 +248,7 @@ background-image: url('./img/kids.jpeg');
 background-position: center;
 background-size: cover;
 transition: 0.5s;
-border-radius: 10px;
+border-radius: 5px;
 }
 .Portfolio-grid .col .imgBx2{
 background-image: url('./img/kkids.jpg');
@@ -273,7 +273,7 @@ overflow: hidden;
 padding: 15px;
 box-sizing: border-box;
 opacity: 1;
-border-radius: 10px;
+border-radius: 0px;
 }
 .Portfolio-grid .col .content h4{
 font-size: 25px;
