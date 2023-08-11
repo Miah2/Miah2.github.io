@@ -1,0 +1,91 @@
+.firstblog{
+margin: 80px 0 0 ;
+}
+.hero{
+height: 90vh;
+}
+.hero-text h1{
+color: white;
+margin-bottom: 20px;
+text-transform: uppercase;
+font-family: 'Permanent Marker', cursive;
+font-size: 4.5vw;
+font-weight: 300;
+}
+h1 span{
+color: #86e1f8;
+}
+.Portfolio-grid .col .imgBx{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-image: url('./img/front.jpg');
+background-position: center;
+background-size: center;
+transition: 0.5s;
+border-radius: 10px;
+}
+
+.ecuador{
+width: 100%;
+height: 100%;
+padding: 120px 0 ;
+text-align: center;
+}
+
+.ecuador-wrap{
+width: 50%;
+margin: 0 auto;
+}
+.ecuador-wrap img{
+width: 100%;
+padding: 20px 0;
+}
+.ecuador-wrap h6, h1{
+text-align: center;
+padding: 15px;
+}
+.ecuador-wrap p{
+font-size: 15px;
+line-height: 2;
+}
+.ecuador-wrap .indicate{
+font-style: italic;
+padding-bottom: 30px;
+font-size: 13px;
+}
+.ecuador-wrap .btn{
+width: 200px;
+font-size: 14px;
+margin-top: 60px;
+align-items: center;
+}
+
+.things_2_know{
+padding-top: 70px;
+}
+ol{
+padding: 10px 30px;
+text-align: start;
+}
+ol li{
+font-size: 15px;
+display: list-item;
+list-style: decimal;
+margin-left: 25px;
+line-height: 1.7;
+padding-bottom: 10px;
+
+}
+
+
+
+@media only screen and (max-width:770px){
+    .ecuador-wrap{
+        width: 60%;
+        margin: 0 auto;
+        }
+}
+
