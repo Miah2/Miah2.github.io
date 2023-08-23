@@ -437,7 +437,367 @@ font-size:clamp(10px, 3.5vw, 14px);
 font-weight: 600;
 opacity: 0.8;
 }
+.contact-hero{
+height: 70vh;
+}
+.contact-text{
+top: 40%;
 
+}
+.concard{
+  width: 80%;
+  height: 150px;
+  background-color: whitesmoke;
+  text-align: center;
+  margin-top: 320px;
+  position: absolute;
+  left: 10%;
+  /* padding: 50px 40px 0; */
+  }
+  .concard h6{
+  font-size: 16px;
+  font-weight: 500;
+  padding: 20px 50px;
+  }
+  
+  #form{
+  width: 90%;
+  background-color: whitesmoke;
+  text-align: center;
+  margin: 80px auto;
+  }
+  #form p{
+  font-weight: 500;
+  font-size: 20px;
+  }
+  
+  form{
+  background: #86e1f8;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 50px;
+  max-width: 700px;
+  border-radius: 10px;
+  margin: 20px auto;
+  }
+  form input , form textarea{
+  background: #f2efef;
+  border: 0;
+  margin: 10px 0;
+  padding: 10px;
+  outline: none;
+  font-size: 15px;
+  box-shadow: 0px 3px 5px #000b0a90;
+  }
+  form .btn{
+  background: whitesmoke;
+  padding: 10px;
+  width: 170px;
+  margin: 30px auto;
+  }
+
+  .first-container{
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 0;
+    margin: auto;
+    }
+    .first-cont-img{
+    width: 80%;
+    margin: auto;
+    }
+    .first-cont-img img{
+    width: 100%;
+    }
+    .first-cont-text{
+    width: 100%;
+    margin: auto;
+    }
+    /* .first-container div:nth-child(2){
+    } */
+    .first-container-text{
+      padding: 0 20px;
+    }
+    .first-container-text h1{
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    font-weight: 400;
+    line-height: 1.5;
+    }
+    .first-container-text p{
+    float: right;
+    }
+    .founder_story{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #c8c4c4;
+    padding: 40px 40px;
+    color: black;
+    margin-bottom: 50px;
+    }
+    .img-divv{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .img-divv img{
+    width: 80%;
+    }
+    .founder_text{
+      width: 100%;
+    }
+    .founder_text h1{
+    text-align: center;
+    padding-bottom: 10px;
+    }
+    .founder_text h2{
+    text-align: center;
+    font-size: 43px;
+    line-height: 1.3;
+    font-weight: 400;
+    padding: 0 10px 30px;
+    }
+    .founder_text p{
+    font-size: 20px;
+    line-height: 1.5;
+    padding-bottom: 15px;
+    }
+    .founder_text a{
+    font-size: 18px;
+    }
+    
+    .believe{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    }
+    .believe h1{
+    font-size: 2.3rem;
+    text-align: center;
+    margin-bottom: 30px;
+    }
+    .believe p{
+    font-size: 22px;
+    text-align: start;
+    margin-bottom: 30px;
+    }
+    .believe .btn{
+    width: 250px;
+    font-size: 16px;
+    margin-top: 20px;
+    }
+    .UN_container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to left, #ffffff27, #727070), url(./img/team.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 0px;
+    }
+    .UN_card{
+    width: 600px;
+    height: 350px;
+    display: flex;
+    background: whitesmoke;
+    padding: 40px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 5%;
+    }
+    .UN_card div{
+    text-align: center;
+    border-bottom: 1px solid white;
+    }
+    .UN_card div img{
+    width: 40%;
+    float: left;
+    margin-right: 20px;
+    background: #86e1f8;
+    }
+    .UN_card div h2{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    text-align: justify;
+    }
+    .UN_card div p{
+    font-size: 18px;
+    text-align: justify;
+    }
+    .UN_card:hover{
+    background: #86e1f8;
+    color: white;
+    }
+    .UN_card div:nth-child(2) h2:hover{
+    border-bottom: 2px solid white;
+    color: white;
+    }
+    .lastimg{
+    width: 100%;
+    height: 60vh;
+    background-image: url(./img/water\ kids.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 20px;
+    }
+    .lastimg div{
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 40px;
+    }
+    .lastimg div h1{
+    font-size: 45px;
+    padding: 20px 0;
+    }
+    
+    .firstblog{
+      margin: 80px 0 0 ;
+      }
+      /* .hero{
+      height: 90vh;
+      }
+      .hero-text h1{
+      color: white;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      font-family: 'Permanent Marker', cursive;
+      font-size: 4.5vw;
+      font-weight: 300;
+      }
+      h1 span{
+      color: #86e1f8;
+      } */
+      .Portfolio-grid .col .imgBx{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('./img/front.jpg');
+      background-position: center;
+      background-size: center;
+      transition: 0.5s;
+      border-radius: 10px;
+      }
+      
+      .ecuador{
+      width: 100%;
+      height: 100%;
+      padding: 120px 0 ;
+      text-align: center;
+      }
+      
+      .ecuador-wrap{
+      width: 50%;
+      margin: 0 auto;
+      }
+      .ecuador-wrap img{
+      width: 100%;
+      padding: 20px 0;
+      }
+      .ecuador-wrap h6, h1{
+      text-align: center;
+      padding: 15px;
+      }
+      .ecuador-wrap p{
+      font-size: 15px;
+      line-height: 2;
+      }
+      .ecuador-wrap .indicate{
+      font-style: italic;
+      padding-bottom: 30px;
+      font-size: 13px;
+      }
+      .ecuador-wrap .btn{
+      width: 200px;
+      font-size: 14px;
+      margin-top: 60px;
+      align-items: center;
+      }
+      
+      .things_2_know{
+      padding-top: 70px;
+      }
+      ol{
+      padding: 10px 30px;
+      text-align: start;
+      }
+      ol li{
+      font-size: 15px;
+      display: list-item;
+      list-style: decimal;
+      margin-left: 25px;
+      line-height: 1.7;
+      padding-bottom: 10px;
+      }
+
+      
+
+
+      #Vidsec{
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        }
+        #Vidsec h3{
+        padding: 20px 0;
+        font-size: 20px;
+        font-weight: 400;
+        }
+        .viddiv{
+        width: 100%;
+        padding: 20px 0;
+        }
+        .youtubee{
+        width: 80%;
+        height: 400px;
+        }
+        .text_img{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        }
+        .text_img img{
+        float: right;
+        margin: 20px;
+        }
+        .text_img  p{
+        text-align: justify;
+        font-size: 16px;
+        line-height: 1.5;
+        }
+        .text_img  h6{
+        font-size: 17px;
+        font-weight: 600;
+        text-align: justify;
+        }
+        .imgdiv img{
+        float: left;
+        }
+        
+        
+@media only screen and (max-width:620px){
+  .first-container{
+    grid-template-columns: 1fr ;
+    }
+    .first-cont-text{
+      padding-top: 40px;
+      }
+}        
 @media only screen and (max-width:770px){
   
     h1{
@@ -483,7 +843,7 @@ opacity: 0.8;
   padding: 20px 40px;
   }
   li .active{
-  color: inherit;
+  background:#86e1f8;
   }
   ul li a:hover{
   background: #777474e7;
@@ -511,6 +871,60 @@ opacity: 0.8;
     font-size: 25px;
   }
 
+  form{
+    background: #86e1f8;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    max-width: 700px;
+    border-radius: 10px;
+    margin: 20px auto;
+    }
+
+  form input , form textarea{
+    background: #f2efef;
+    border: 0;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    box-shadow: 0px 3px 5px #000b0a90;
+    }
+    .founder_story{
+      flex-direction: column;
+    }
+    .believe{
+      width: 90%;
+    }
+    .ecuador-wrap{
+      width: 80%;
+      margin: 0 auto;
+      }
+      .contact-text{
+        top: 50%;
+      }
+
+      #form{
+        width: 90%;
+        background-color: whitesmoke;
+        text-align: center;
+        margin: 120px auto 80px;
+        }
+     
+      .concard{
+        width: 100%;
+        left: 0%;
+      }
+      .concard h6{
+        font-size: 16px;
+        font-weight: 500;
+        padding: 20px 10px;
+        }
+       
+        
+        .UN_card{
+          width: 90%;
+        }
   .open-nav{
     transform: translateX(0%);
   }
